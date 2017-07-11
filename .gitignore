@@ -3,3 +3,5 @@ NodeJSBaseXRouter
 /hybrid/basex/.basex
 /hybrid/basex/.basexgui
 /hybrid/basex/.basexhome
+hybrid/basex/data/.logs
+hybrid/basex/data/
