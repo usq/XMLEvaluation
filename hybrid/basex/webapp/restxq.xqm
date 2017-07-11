@@ -62,8 +62,8 @@ declare function page:htmlWithGameIdAndPlayerId($gameId, $playerId) {
 	let $html := <html>
 		<head>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script type="text/javascript" src="../../static/NodeJSBaseXRouter/Endpoint/wsclient.js"></script>		
-		<script src="../../static/NodeJSBaseXRouter/Endpoint/endpoint.js"></script>
+    <script type="text/javascript" src="../../static/Endpoint/wsclient.js"></script>		
+		<script src="../../static/Endpoint/endpoint.js"></script>
 		<script src="../../static/game.js"></script>
 		<script>
 			var gameId = { $gameId };
