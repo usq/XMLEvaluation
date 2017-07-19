@@ -4,3 +4,6 @@
 [submodule "hybrid/basex/webapp/static/HybridRouter"]
 	path = hybrid/basex/webapp/static/HybridRouter
 	url = https://github.com/usq/HybridRouter.git
+[submodule "modified_basex/basex"]
+	path = modified_basex/basex
+	url = https://github.com/usq/basex.git
