@@ -1,0 +1,11 @@
+<div>
+<a href="#" ng-click="createNewGame()">Create a new game</a>
+<div ng-model="games" onload>
+  <br/>
+  <div ng-repeat="g in games">GameId: {{g.id}}
+    <div ng-if="g.full"> Game is full, spectators only!
+      </div>
+	<div ng-if="g.full == false"> <a href="#" ng-click="join(g.id)">Game waits for player, join now!</a></div>
+    <div>	
+</div>
+</div>

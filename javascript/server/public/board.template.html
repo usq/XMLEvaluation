@@ -1,0 +1,31 @@
+<div ng-model="currentGame">
+  <div ng-if="currentGame.playerWin == 0 && currentGame.full == true">
+    <h2 ng-if="currentGame.playerTurn == playerId">Your Turn!</h2>
+    <h2 ng-if="currentGame.playerTurn != playerId">Waiting for other player</h2>
+  </div>
+  
+  <h2 ng-if="currentGame.full == false">Waiting for player to join</h2>
+
+  
+  <div ng-if="currentGame.playerWin != 0">
+    <h2 ng-if="currentGame.playerWin == playerId">Game Ended, you win!</h2>
+    <h2 ng-if="currentGame.playerWin != playerId">Game Ended, you lost :(</h2>    
+</div>
+
+
+  <div class="board" >
+    <div class="row" ng-repeat="r in currentGame.rows track by $index" ng-init="parentIndex=$index">
+      <div ng-repeat="c in r track by $index" class="cell" ng-click="clicked(parentIndex, $index)">
+	<div class="cell"
+	   ng-if="currentGame.rows[parentIndex][$index] == 0"
+	   >&nbsp;</div>
+      
+	<div class="cell"
+	     ng-if="currentGame.rows[parentIndex][$index] != 0"
+	     >{{c == 1 ? "X" : "O"}}</div>
+	
+      </div>
+
+    </div>
+  </div>
+</div>

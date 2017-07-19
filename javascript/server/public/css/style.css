@@ -1,0 +1,25 @@
+
+.cell {
+    background-color: #a9a9a9;
+    display: table-cell;
+    text-align: center;
+    font-family: monospace;
+    width: 83px;
+}
+
+
+
+.disabled {
+
+}
+
+.row {
+    display: table-row;
+}
+
+.board {
+    width: 250px;
+    height: 250px;
+    display: table;
+    border-spacing: 2px;    
+}

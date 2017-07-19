@@ -1,0 +1,15 @@
+{
+  "name": "ttt-server",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "angular-route": "^1.6.4",
+    "angular-websocket": "^2.0.1",
+    "body-parser": "~1.15.2",
+    "express": "~4.14.0",
+    "mongodb": "^2.2.29"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
