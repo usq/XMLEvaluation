@@ -7,8 +7,8 @@
 
 ## Prerequisites
 - The start scripts assume a *nix environment (linux, macos), but they are very simple and can be easily adapted for windows.
-- To start the Hybrid application, [npm][https://www.npmjs.com] is required
-- To start the AngularJS application, [mongodb][http://mongodb.com] is required
+- To start the Hybrid application, [npm](https://www.npmjs.com) is required
+- To start the AngularJS application, [mongodb](http://mongodb.com) is required
 
 ## Starting the Hybrid application
 ### Fetch node dependencies
