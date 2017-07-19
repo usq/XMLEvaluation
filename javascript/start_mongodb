@@ -1,5 +1,5 @@
 #!/bin/sh
 
-
+mkdir mongodb
 cd mongodb
 mongod --dbpath `pwd`
