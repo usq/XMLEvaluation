@@ -1,3 +1,3 @@
 #!/bin/sh
 
-node basex/webapp/static/NodeJSBaseXRouter/node-router/router.js
+node basex/webapp/static/HybridRouter/router.js
