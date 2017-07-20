@@ -1,7 +1,7 @@
 # Evaluation Repository
 
 ## Cloning from GitHub
-- execute `git clone <url>`
+- execute `git clone https://github.com/usq/XMLEvaluation.git`
 - execute `git submodule update --init --recursive` to initialize and fetch all submodules
 
 
